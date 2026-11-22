@@ -1,6 +1,6 @@
 # CFMS: your project, in your own words
 
-Runs in Claude Code and in Cowork, on a computer. It does not run in the Claude phone app or in chat.
+Runs in Claude Code on a computer. It does not run in the Claude app (desktop, web or phone), where `/cfms:on` cannot run its command.
 
 CFMS, the Context Fatigue Management System, keeps track of what Claude changed in your project, asks you now and then in one line why you want it, and puts your own words back in front of you and Claude when you return.
 
@@ -24,9 +24,6 @@ On an older version, type these two lines, one at a time:
 ```
 
 The second line opens CFMS's details. Choose where to install it (for you everywhere, or in this project only) and it installs.
-
-## Install in Cowork
-In the Claude desktop app: Customize, Plugins, Add, Add marketplace. Enter `PrestoniLCFC/cfms`, then add CFMS from the list.
 
 ## Turn it on in a project
 CFMS does nothing in a project until you turn it on there. Open Claude in your project and type:
@@ -56,9 +53,9 @@ Only what you type into the CFMS question box is ever saved as your words, exact
 A file Claude changes through a shell command (Bash or PowerShell) is noted only when the project is inside a git repository. Files Claude changes with its own edit tools are noted either way.
 
 ## Turn it off, or remove it
-- Off for now: `/plugin disable cfms@cfms` (turn it back on with `/plugin enable cfms@cfms`). In Cowork, the plugin's Disable plugin toggle.
+- Off for now: `/plugin disable cfms@cfms` (turn it back on with `/plugin enable cfms@cfms`).
 - Off in one project: delete that project's `cfms/` folder. This deletes your saved lines too.
-- Remove it: `/plugin uninstall cfms@cfms`, then `/plugin marketplace remove cfms`. In Cowork, Remove from the plugin's menu. Your `cfms/` folders stay in your projects until you delete them.
+- Remove it: `/plugin uninstall cfms@cfms`, then `/plugin marketplace remove cfms`. Your `cfms/` folders stay in your projects until you delete them.
 
 ---
 

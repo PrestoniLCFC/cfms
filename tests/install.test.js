@@ -34,7 +34,7 @@ test('the README install lines name the marketplace and plugin the files declare
   const install = lines.indexOf('/plugin install ' + id);
   assert.ok(add >= 0, 'marketplace add line');
   assert.ok(install > add, 'install line after the add line');
-  assert.ok(readme.includes('Add marketplace. Enter `' + h.GITHUB + '`'), 'Cowork line');
+  assert.ok(!/cowork/i.test(readme), 'no Cowork anywhere in the README');
   assert.ok(lines.includes('/cfms:on'), '/cfms:on line');
   assert.ok(readme.includes('/plugin uninstall ' + id), 'uninstall line');
   assert.ok(readme.includes('/plugin marketplace remove ' + m.name), 'marketplace remove line');
@@ -44,8 +44,8 @@ test('the README says where it runs first, and names Node.js, cfms/, CFMS_QUIET=
   const readme = read('README.md');
   const firstPara = readme.split(/\r?\n\r?\n/)[1];
   assert.match(firstPara, /Claude Code/);
-  assert.match(firstPara, /Cowork/);
   assert.match(firstPara, /computer/);
+  assert.match(firstPara, /does not run in the Claude app/);
   for (const s of ['Node.js', '`cfms/`', 'CFMS_QUIET=1', 'git repository', 'Skip', 'nothing over the network']) {
     assert.ok(readme.includes(s), 'README names ' + s);
   }
