@@ -1,0 +1,42 @@
+{
+  "session_id": "00000000-0000-0000-0000-000000000001",
+  "transcript_path": "__PROJECT__/.transcript.jsonl",
+  "cwd": "__PROJECT__",
+  "permission_mode": "default",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "AskUserQuestion",
+  "tool_input": {
+    "questions": [
+      {
+        "question": "In one line, why did you want src/c.js, src/b.js and src/a.js changed? I read your answer next session.",
+        "header": "CFMS",
+        "options": [
+          { "label": "Skip", "description": "Save nothing and never ask about these again" },
+          { "label": "Not now", "description": "Save nothing now and ask again later" }
+        ],
+        "multiSelect": false
+      }
+    ],
+    "answers": {
+      "In one line, why did you want src/c.js, src/b.js and src/a.js changed? I read your answer next session.": "__ANSWER__"
+    }
+  },
+  "tool_response": {
+    "questions": [
+      {
+        "question": "In one line, why did you want src/c.js, src/b.js and src/a.js changed? I read your answer next session.",
+        "header": "CFMS",
+        "options": [
+          { "label": "Skip", "description": "Save nothing and never ask about these again" },
+          { "label": "Not now", "description": "Save nothing now and ask again later" }
+        ],
+        "multiSelect": false
+      }
+    ],
+    "answers": {
+      "In one line, why did you want src/c.js, src/b.js and src/a.js changed? I read your answer next session.": "__ANSWER__"
+    }
+  },
+  "tool_use_id": "toolu_01ASK",
+  "duration_ms": 41000
+}

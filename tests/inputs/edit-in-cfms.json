@@ -1,0 +1,11 @@
+{
+  "session_id": "00000000-0000-0000-0000-000000000001",
+  "transcript_path": "__PROJECT__/.transcript.jsonl",
+  "cwd": "__PROJECT__",
+  "permission_mode": "default",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Edit",
+  "tool_input": { "file_path": "__PROJECT__/cfms/NOW.md", "old_string": "a", "new_string": "b", "replace_all": false },
+  "tool_response": { "filePath": "__PROJECT__/cfms/NOW.md", "success": true },
+  "tool_use_id": "toolu_01CFMS"
+}

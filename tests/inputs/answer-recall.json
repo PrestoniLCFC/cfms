@@ -1,0 +1,42 @@
+{
+  "session_id": "00000000-0000-0000-0000-000000000004",
+  "transcript_path": "__PROJECT__/.transcript.jsonl",
+  "cwd": "__PROJECT__",
+  "permission_mode": "default",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "AskUserQuestion",
+  "tool_input": {
+    "questions": [
+      {
+        "question": "From memory, in one line: what is this project for? Type or dictate it in the box; it is saved as you write it.",
+        "header": "CFMS",
+        "options": [
+          { "label": "Show my notes", "description": "Save nothing and show my notes now" },
+          { "label": "Not now", "description": "Save nothing and go on" }
+        ],
+        "multiSelect": false
+      }
+    ],
+    "answers": {
+      "From memory, in one line: what is this project for? Type or dictate it in the box; it is saved as you write it.": "__ANSWER__"
+    }
+  },
+  "tool_response": {
+    "questions": [
+      {
+        "question": "From memory, in one line: what is this project for? Type or dictate it in the box; it is saved as you write it.",
+        "header": "CFMS",
+        "options": [
+          { "label": "Show my notes", "description": "Save nothing and show my notes now" },
+          { "label": "Not now", "description": "Save nothing and go on" }
+        ],
+        "multiSelect": false
+      }
+    ],
+    "answers": {
+      "From memory, in one line: what is this project for? Type or dictate it in the box; it is saved as you write it.": "__ANSWER__"
+    }
+  },
+  "tool_use_id": "toolu_04RECALL",
+  "duration_ms": 30000
+}

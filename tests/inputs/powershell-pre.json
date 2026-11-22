@@ -1,0 +1,15 @@
+{
+  "session_id": "00000000-0000-0000-0000-000000000001",
+  "transcript_path": "__PROJECT__/.transcript.jsonl",
+  "cwd": "__PROJECT__",
+  "permission_mode": "default",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "PowerShell",
+  "tool_input": {
+    "command": "Set-Content g.txt 'g'; exit 1",
+    "description": "Create g.txt",
+    "timeout": 120000,
+    "run_in_background": false
+  },
+  "tool_use_id": "toolu_01PWSH"
+}

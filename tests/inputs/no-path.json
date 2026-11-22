@@ -1,0 +1,8 @@
+{
+  "session_id": "00000000-0000-0000-0000-000000000001",
+  "cwd": "__PROJECT__",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Edit",
+  "tool_input": {},
+  "tool_response": "Error: something went wrong"
+}

@@ -1,0 +1,12 @@
+{
+  "session_id": "00000000-0000-0000-0000-000000000001",
+  "transcript_path": "__PROJECT__/.transcript.jsonl",
+  "cwd": "__PROJECT__",
+  "permission_mode": "default",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Write",
+  "tool_input": { "file_path": "__PROJECT__/README.md", "content": "# Hello\n" },
+  "tool_response": { "filePath": "__PROJECT__/README.md", "type": "create" },
+  "tool_use_id": "toolu_01WRITE",
+  "duration_ms": 9
+}

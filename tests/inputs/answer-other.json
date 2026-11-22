@@ -1,0 +1,37 @@
+{
+  "session_id": "00000000-0000-0000-0000-000000000001",
+  "transcript_path": "__PROJECT__/.transcript.jsonl",
+  "cwd": "__PROJECT__",
+  "permission_mode": "default",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "AskUserQuestion",
+  "tool_input": {
+    "questions": [
+      {
+        "question": "Which framework?",
+        "header": "Framework",
+        "options": [
+          { "label": "React", "description": "Component library" },
+          { "label": "Vue", "description": "Progressive framework" }
+        ],
+        "multiSelect": false
+      }
+    ],
+    "answers": { "Which framework?": "Svelte, because the bundle stays small" }
+  },
+  "tool_response": {
+    "questions": [
+      {
+        "question": "Which framework?",
+        "header": "Framework",
+        "options": [
+          { "label": "React", "description": "Component library" },
+          { "label": "Vue", "description": "Progressive framework" }
+        ],
+        "multiSelect": false
+      }
+    ],
+    "answers": { "Which framework?": "Svelte, because the bundle stays small" }
+  },
+  "tool_use_id": "toolu_01OTHER"
+}

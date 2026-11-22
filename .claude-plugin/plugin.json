@@ -1,0 +1,9 @@
+{
+  "name": "cfms",
+  "version": "0.1.0",
+  "description": "Context Fatigue Management System: know what your AI did, and let your AI know why you want things.",
+  "author": {
+    "name": "Atrium Spatial Labs",
+    "url": "https://www.linkedin.com/in/preston-johan-96984b237"
+  }
+}

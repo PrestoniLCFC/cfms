@@ -1,0 +1,14 @@
+{
+  "name": "cfms",
+  "description": "CFMS, the Context Fatigue Management System. Your project, in your own words.",
+  "owner": {
+    "name": "Atrium Spatial Labs"
+  },
+  "plugins": [
+    {
+      "name": "cfms",
+      "source": "./",
+      "description": "Know what your AI did, and let your AI know why you want things. Your own words, kept in your project."
+    }
+  ]
+}

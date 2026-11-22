@@ -1,0 +1,42 @@
+{
+  "session_id": "00000000-0000-0000-0000-000000000005",
+  "transcript_path": "__PROJECT__/.transcript.jsonl",
+  "cwd": "__PROJECT__",
+  "permission_mode": "default",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "AskUserQuestion",
+  "tool_input": {
+    "questions": [
+      {
+        "question": "In one line, in your own words: the standing rule and your reason. Type or dictate it in the box; it is saved exactly as you write it, and Claude reads it at every session start.",
+        "header": "CFMS",
+        "options": [
+          { "label": "Not a standing rule", "description": "Save nothing" },
+          { "label": "Not now", "description": "Save nothing and go on" }
+        ],
+        "multiSelect": false
+      }
+    ],
+    "answers": {
+      "In one line, in your own words: the standing rule and your reason. Type or dictate it in the box; it is saved exactly as you write it, and Claude reads it at every session start.": "__ANSWER__"
+    }
+  },
+  "tool_response": {
+    "questions": [
+      {
+        "question": "In one line, in your own words: the standing rule and your reason. Type or dictate it in the box; it is saved exactly as you write it, and Claude reads it at every session start.",
+        "header": "CFMS",
+        "options": [
+          { "label": "Not a standing rule", "description": "Save nothing" },
+          { "label": "Not now", "description": "Save nothing and go on" }
+        ],
+        "multiSelect": false
+      }
+    ],
+    "answers": {
+      "In one line, in your own words: the standing rule and your reason. Type or dictate it in the box; it is saved exactly as you write it, and Claude reads it at every session start.": "__ANSWER__"
+    }
+  },
+  "tool_use_id": "toolu_05RULE",
+  "duration_ms": 30000
+}

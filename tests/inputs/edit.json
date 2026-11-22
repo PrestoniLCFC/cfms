@@ -1,0 +1,17 @@
+{
+  "session_id": "00000000-0000-0000-0000-000000000001",
+  "transcript_path": "__PROJECT__/.transcript.jsonl",
+  "cwd": "__PROJECT__",
+  "permission_mode": "default",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Edit",
+  "tool_input": {
+    "file_path": "__PROJECT__/src/app.js",
+    "old_string": "const a = 1;",
+    "new_string": "const a = 2;",
+    "replace_all": false
+  },
+  "tool_response": { "filePath": "__PROJECT__/src/app.js", "success": true },
+  "tool_use_id": "toolu_01EDIT",
+  "duration_ms": 12
+}

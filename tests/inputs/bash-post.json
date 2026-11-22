@@ -1,0 +1,17 @@
+{
+  "session_id": "00000000-0000-0000-0000-000000000001",
+  "transcript_path": "__PROJECT__/.transcript.jsonl",
+  "cwd": "__PROJECT__",
+  "permission_mode": "default",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Bash",
+  "tool_input": {
+    "command": "echo a > a.txt && mkdir -p b && echo c > b/c.txt",
+    "description": "Create a.txt and b/c.txt",
+    "timeout": 120000,
+    "run_in_background": false
+  },
+  "tool_response": { "stdout": "", "stderr": "", "interrupted": false, "isImage": false },
+  "tool_use_id": "toolu_01BASH",
+  "duration_ms": 40
+}
